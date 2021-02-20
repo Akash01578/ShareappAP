@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to top, #4F6072, #8699AA);
+}
+body, html{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: syste-ui;
+}
+.container{
+    background-color: #ffff;
+    border-radius: 20px;
+    padding: 30px;
+    max-width:865px;
+    box-shadow: 0px 20px 20px 0px #00000017;
+}
+.card{
+    border-radius: 10px;
+    border: 2px dashed mediumaquamarine;
+}
+.upload-img{
+    height: 150px;
+    width: 150px;
+}
+.link-show{
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#submitbtn{
+    background-color: rgb(98, 236, 98);
+    border-radius: 8px;
+    width: 90px;
+    height: 38px;
+    cursor: pointer;
+}
+#inputfile{
+    background-color: #c7f8ea;
+    cursor: pointer;
+}
+.sharelink{
+    margin-top: -10px;
+    margin-bottom: 7px;
+}
+.share{
+    height: 40px;
+    width: 40px;
+}
